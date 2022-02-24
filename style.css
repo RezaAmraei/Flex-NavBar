@@ -1,0 +1,38 @@
+* {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  text-decoration: none;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: gray;
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: right;
+}
+li {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+.active {
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.btn {
+  background-color: blue;
+  height: 45px;
+  width: 100px;
+  font-size: 20px;
+  border: 3px solid black;
+  box-shadow: 5px 5px black;
+}
